@@ -1,0 +1,19 @@
+#!/bin/sh
+while read file
+do
+        case "$1" in
+        "C-w") 
+		cp "$file" ~aleksa/.config/wall.png &&
+		feh  --bg-scale  ~aleksa/.config/wall.png ;;
+        "C-b") 
+		wal -i "$file" &&
+		cp "$file" ~aleksa/.config/wall.png ;;
+	"C-r")
+		convert -rotate 90 "$file" "$file" ;;
+	"C-R")
+		convert -rotate -90 "$file" "$file" ;;
+	"C-f")
+		convert -flop "$file" "$file" ;;
+        esac
+done
+
