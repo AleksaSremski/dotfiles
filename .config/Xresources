@@ -128,7 +128,6 @@ st.font: Monospace-11;
 /* *.color15:  #aabac8  */
 
 !! google dark:
-
 /* *.color0:       #1d1f21 */
 /* *.color1:       #cc342b */
 /* *.color2:       #198844 */
