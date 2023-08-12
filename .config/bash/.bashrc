@@ -16,7 +16,7 @@ alias v="vim"
 alias z="zathura"
 alias sx="sxiv -t"
 alias px="pulsemixer"
-alias sn="sudo ncmpcpp"
+alias sn="ncmpcpp"
 alias shd="shutdown now"
 
 alias ls='ls --color=auto'
