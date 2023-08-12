@@ -1,8 +1,8 @@
 # vim: filetype=conf
 
-ncmpcpp_directory = "~aleksa/.config/ncmpcpp"
-lyrics_directory = "~aleksa/.local/share/lyrics"
-mpd_music_dir = "~aleksa/Music"
+ncmpcpp_directory = "$HOME/.config/ncmpcpp"
+#lyrics_directory = "~aleksa/.local/share/lyrics"
+mpd_music_dir = "$HOME/Music"
 message_delay_time = "1"
 #visualizer_data_source = "/tmp/mpd.fifo"
 #visualizer_output_name = "Visualizer feed"
