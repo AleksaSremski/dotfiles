@@ -1,17 +1,11 @@
+# Runs slstatus
 slstatus &
-
-#dwmblocks &
-
-#exec $HOME/.config/polybar/./launch.sh &
-
-xwallpaper --zoom $HOME/.config/wall.png &
-#$HOME/.config/scr/wallpaper_scr/./LiveWallpaper.sh
-
-xrdb $HOME/.config/Xresources &
-
-#xrdb $HOME/.config/xthemes/.Xresources &
-
+# Sets wallpaper
+xwallpaper --zoom ~/.config/wall.png &
+# Sets Xresources theme
+xrdb ~/.config/Xresources &
+# Starts xcompmgr
 exec xcompmgr &
+# Runs dwm
 exec dwm
-#$HOME/.config/WallSoft/foo-Wallpaper-Feh-Gif/./back4.sh /home/aleksa/Pix/live_wallpapers/cherry_train.gif
 
